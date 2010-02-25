@@ -60,7 +60,7 @@ public class Wallpaper extends Activity {
         intent.putExtra("aspectX",         width);
         intent.putExtra("aspectY",         height);
         intent.putExtra("scale",           true);
-        intent.putExtra("noFaceDetection", true);
+        intent.putExtra("noFaceDetection", false);
         intent.putExtra("setWallpaper",    true);
     }
 

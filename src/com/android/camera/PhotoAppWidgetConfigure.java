@@ -64,7 +64,7 @@ public class PhotoAppWidgetConfigure extends Activity {
         intent.putExtra("aspectY", 1);
         intent.putExtra("outputX", maxDimension);
         intent.putExtra("outputY", maxDimension);
-        intent.putExtra("noFaceDetection", true);
+        intent.putExtra("noFaceDetection", false);
         intent.putExtra("return-data", true);
 
         startActivityForResult(intent, REQUEST_GET_PHOTO);
